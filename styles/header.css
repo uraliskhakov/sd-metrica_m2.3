@@ -1,0 +1,33 @@
+header {
+    padding: 33px 125px 0 125px;
+    width: 1400px;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 31px 125px 0 125px;  /*завершить нужно*/
+    }
+}
+
+.nav {
+   float: right; 
+}
+
+.nav__link {
+    
+    margin-left: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav__link:hover,
+.nav__link:active 
+{
+    opacity: 0.5;
+    border-bottom: 1px solid rgb(0, 0, 0,0.5);
+}
