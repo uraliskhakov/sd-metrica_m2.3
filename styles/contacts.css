@@ -11,12 +11,12 @@
 }
 
 .contacts__phone-wrapper {
-    margin-top: 27px;
+    margin-top: 24px;
     margin-left: -4px;
 }
 
 .contacts__email-wrapper {
-    margin-top: 27px;
+    margin-top: 24px;
 }
 
 .contacts__email-wrapper::before {
@@ -32,6 +32,7 @@
 }    
 
 .contacts-place {
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 110px;
@@ -74,7 +75,12 @@
     .contacts-place {
     column-gap: 118px;
     margin-top: -6px;
-   
+    margin-bottom: 71px;   
+    }
+
+    .contacts__phone-wrapper,
+    .contacts__email-wrapper {
+        margin-top: 30px;
     }
 
     .contacts__phone,
@@ -97,6 +103,7 @@
 @media (max-width: 767px) {
 
     .contacts-place {
+    margin-bottom: 37px; 
     display: block;
     width: 100%;
     }
